@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+    
+}
+
+#logo{
+    margin: 50px;
+}
+
+/* Menu superior */
+
+#div-menusuperior{
+    background-image: url(Imagens/fundomenusuperior.svg);
+    margin: 0px;
+    width:auto;
+    scale: Crop;
+    padding-bottom: 100px;
+    color: aliceblue;
+    
+}
+
+#titulo-menusuperior{
+    margin-left: 125px;
+    margin-top: 25px;
+}
+
+#texto-menusuperior{
+    margin-left: 125px;
+    margin-top: 35px;
+}
+
+/* Menu informacional */
+
+#div-menuinformacional{
+    background-color: #EAECE5;
+    height: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 75px;
+}
+
+.icone{
+    margin: 25px 0px 25px 100px;
+    padding: 15px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+
+}
+
+/* Seção video*/
+
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+   
+}
+
+
+#titulovideo{
+    color: #247BA0;
+}
+
+#secaotextovideo{
+    margin: 75px 25px 75px 0px;
+}
+
+#video{
+    margin: 75px 0px 75px 100px;
+
+}
+
+/* Seção carrossel */
+
+#carrossel{
+    background-color: #247BA0;
+    margin: auto;
+    padding: 100px;
+    
+}
+
+#titulocarrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+#setaesquerda{
+    display: none;
+    margin-top: 100%;
+}
+
+#bruna{
+    display: none;
+}
+
+#setadireita{
+    margin-top: 50%;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
+
+/* Formulario */
+
+#formulario{
+    text-align: center;
+}
+
+#tituloformulario{
+    color: #383838;
+    font-size: 25px;
+    margin: 25px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 15px;
+
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    margin: 25px;
+    background-color: #247BA0;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+    background-color: #299bcc;
+    color: white;
+    box-shadow: 0px 15px 20px 0px #153b4d8e;;
+}
